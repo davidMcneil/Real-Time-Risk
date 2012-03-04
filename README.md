@@ -4,7 +4,7 @@
 
 - unzip directory into desired location, this path is hence called directory
 
-# Linux
+## Linux
 
 - open terminal
 - "cd directory"
@@ -12,17 +12,17 @@
 Start a server:
  
 - run "python server.py arg1 arg2"
-- arg1 = port number ( number > 5000)
-- arg2 = number of players 1-4
+  - arg1 = port number ( number > 5000)
+  - arg2 = number of players 1-4
 - ex.) "python server.py 5555 3" starts game on port 5555 with 3 players
 
 Start specified number of clients one for each playerr: 
 - run "python client.py arg1 arg2"
-- arg1 = port number same as server
-- arg2 = host machines IP address
+  - arg1 = port number same as server
+  - arg2 = host machines IP address
 - ex.) "python client.py 127.0.0.1 5555" connects to local-host on port 5555
 
-# Windows
+## Windows
 
 - open command prompt
 - "cd directory"
