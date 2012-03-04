@@ -16,7 +16,8 @@ Start a server:
   - arg2 = number of players 1-4
 - ex.) "python server.py 5555 3" starts game on port 5555 with 3 players
 
-Start specified number of clients one for each playerr: 
+Start specified number of clients one for each player:
+ 
 - run "python client.py arg1 arg2"
   - arg1 = port number same as server
   - arg2 = host machines IP address
