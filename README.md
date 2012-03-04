@@ -1,4 +1,4 @@
-![Alt text](screenshot.jpg)
+![Alt text](raw/master/screenshot.jpg)
 
 To Start Game:
 
@@ -6,24 +6,26 @@ To Start Game:
 
 Linux
 -cd directory
-Start a server: 
-	run "python server.py arg1 arg2"
-	arg1 = port number ( number > 5000)
-	arg2 = number of players 1-4
+Start a server:
+ 
+- run "python server.py arg1 arg2"
+- arg1 = port number ( number > 5000)
+- arg2 = number of players 1-4
+
 Start specified number of clients: 
-	run "python client.py arg1 arg2"
-	arg1 = port number same as server
-	arg2 = host machines IP address
+- run "python client.py arg1 arg2"
+- arg1 = port number same as server
+- arg2 = host machines IP address
 
 Windows
 Run server
   Open command prompt
       C:> "cd directory\windows-exe\server"
-    -Run server.exe takes two argument
-      -arg1=port number, perferably choose number greater than 5000
-      -arg2=number of clients(players), number between 1 and 4
+    - Run server.exe takes two argument
+      - arg1=port number, perferably choose number greater than 5000
+      - arg2=number of clients(players), number between 1 and 4
       C:> server.exe arg1 arg2
-      -Example: "C:> server.exe 5000 1" this starts a game on port 5000 with 1 player
+      - Example: "C:> server.exe 5000 1" this starts a game on port 5000 with 1 player
 Connect clients to server
   Open another command prompt
       C:> "cd directory\windows-exe\client"
