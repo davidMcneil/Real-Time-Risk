@@ -32,7 +32,7 @@ Start specified number of clients one for each player:
 
 Run server
 
-- "cd directory\windows-exe\server"
+- "cd windows-exe\server"
 - Run "server.exe arg1 arg2"
   - arg1=port number, perferably choose number greater than 5000
   - arg2=number of clients(players), number between 1 and 4
@@ -40,14 +40,14 @@ Run server
 
 Connect clients to server
 
-- "cd directory\windows-exe\client"
+- "cd windows-exe\client"
 - Run "client.exe arg1 arg2"
   - arg1 = IP address of  host computer server
   - arg2 = port number, choosen by server
 - ex:) "client.exe 127.0.0.1 5555" connects to local-host on port 5555
 
 
-- Note: Game only starts after all clients have connected
+*Note: Game only starts after all clients have connected*
 
 
 # Game Play
