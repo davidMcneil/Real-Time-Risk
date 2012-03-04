@@ -1,6 +1,6 @@
 ![Alt text](Real-Time-Risk/raw/master/screenshot.jpg)
 
-To Start Game:
+# To Start Game:
 
 -unzip directory into desired location
 
