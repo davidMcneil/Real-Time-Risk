@@ -1,4 +1,4 @@
-![Alt text](Real-Time-Risk/raw/master/screenshot.jpg)
+![Alt text](screenshot.jpg)
 
 # To Start Game:
 
